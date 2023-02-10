@@ -2,7 +2,11 @@ package labtest1;
 
 
 public class LabTest1 {
-	
+       /**
+     * sorts array from lowest to greatest values.
+     * 
+     * @param unsorted - array to be sorted.
+     */  
     void sortFunction7(int unsorted[]) 
     {
         int len = unsorted.length; // length of the array
@@ -17,7 +21,11 @@ public class LabTest1 {
             unsorted[i] = t;
         }
     }
- 
+        /**
+     * sorts array from lowest to greatest values.
+     * 
+     * @param unsorted - array to be sorted.
+     */  
     void sortFunction8(int unsorted[]) 
     {  
     int len = unsorted.length;    
@@ -32,6 +40,11 @@ public class LabTest1 {
     }
         }
     }
+    /**
+     * sorts array from lowest to greatest values.
+     * 
+     * @param unsorted - array to be sorted.
+     */  
     
     void sortFunction9(int unsorted[])
     {
@@ -51,7 +64,11 @@ public class LabTest1 {
         }
     }
         
-    
+    /**
+     * prints array
+     * 
+     * @param arr - whats getting printed.
+     */  
     void printArray(int arr[])
     {
         int n = arr.length;
@@ -60,7 +77,11 @@ public class LabTest1 {
         System.out.println();
     }
  
-    
+    /**
+     * main that uses the functions and creates the arrays to be sorted
+     * 
+     * @param args - command line arguments
+     */  
     public static void main(String[] args) {
         LabTest1 obj = new LabTest1();
         
@@ -82,3 +103,4 @@ public class LabTest1 {
     }
     
 }
+
